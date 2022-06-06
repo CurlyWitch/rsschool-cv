@@ -4,10 +4,10 @@
 
 ### Contacts
 
-**Phone:** +375 33 357-33-73
-**Email:** yuliya.skrygan@gmail.com
-**GitHub:** CurlyWitch
-**Discord:** Yuliya Skryhan (@curlywitch)
+* **Phone:** +375 33 357-33-73
+* **Email:** yuliya.skrygan@gmail.com
+* **GitHub:** CurlyWitch
+* **Discord:** Yuliya Skryhan (@curlywitch)
 
 ### About Me
 
@@ -42,6 +42,6 @@ RS Schools Course «JavaScript/Front-end. Stage 0» (currently)
 
 ### Languages:
 
-English - basic
-Russian - native
-German - basic
+* English - basic
+* Russian - native
+* German - basic
