@@ -1,1 +1,1 @@
-# rsschool-cv
+https://CurlyWitch.github.io/rsschool-cv/cv
