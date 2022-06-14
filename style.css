@@ -103,9 +103,23 @@ h2 {
 
 }
 
-.footer {
-    background-color: #6A8866;
-    border-bottom: 1px solid white;
+.footer { 
+    padding: 30px 0px; 
+    background-color: #ffffff; 
+    border-top: 2px solid rgb(238, 238, 238);  
+} 
+ 
+.copyright { 
+    float: left; 
+} 
+ 
+.rs-logo { 
+    width: 100%; 
+    max-width: 130px; 
+} 
+ 
+.footer-logo { 
+    float: right; 
 }
 
 @media (max-width: 768px) {
