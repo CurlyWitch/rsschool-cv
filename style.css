@@ -1,3 +1,176 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
+@font-face {
+    font-family: Joan;
+    src: url("assets/fonts/Joan-Regular.ttf");
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0d0f1b;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 { 
+    font-size: 50px; 
+    margin: 0px; 
+} 
+ 
+h2 { 
+    margin: 0px; 
+}
+
+.header {
+    background: linear-gradient(21deg, #dd03e4, #5611ec);
+    border-bottom: 1px solid white;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+}
+
+.nav-link { 
+    padding: 0 20px; 
+    line-height: 70px; 
+    color: white; 
+    font-size: 20px; 
+    text-decoration: none; 
+    transition: .3s; 
+    font-weight: 500; 
+    color: yellow; 
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.colored-link {
+    color: black; 
+}
+
+.main {
+    padding-top: 8px;
+    padding-bottom: 30px;
+    background: linear-gradient(135deg, rgba(229, 93, 135, 0.12) 0%, rgba(95, 195, 228, 0.105) 100%);
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section { 
+    width: 50%; 
+    border-bottom: 15px solid transparent; 
+    border-image: linear-gradient(21deg, #dd03e4, #5611ec); 
+    border-image-slice: 1; 
+}
+
+.section-profile {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.section-profile .profile-information {
+    margin-left: 300px;
+}
+
+
+.profile-photo .avatar {
+    width: 250px;
+    height: auto;
+    border-radius: 20%;
+
+}
+
+.footer { 
+    padding: 30px 0px; 
+    background-color: #ffffff; 
+    border-top: 2px solid rgb(238, 238, 238);  
+} 
+ 
+.copyright { 
+    float: left; 
+} 
+ 
+.rs-logo { 
+    width: 100%; 
+    max-width: 130px; 
+} 
+ 
+.footer-logo { 
+    float: right; 
+}
+
+@media (max-width: 1500px) { 
+    .main { 
+        padding: 20px; 
+    } 
+} 
+ 
+@media (max-width: 1000px) { 
+    .nav-link { 
+        line-height: 30px; 
+        color: white; 
+        font-size: 20px; 
+        text-decoration: none; 
+        transition: .3s; 
+        font-weight: 400; 
+        color: yellow; 
+    } 
+    .nav-list { 
+        display: block; 
+        justify-content: flex-end; 
+        align-items: center; 
+        list-style: none; 
+        margin: 0; 
+        padding: 20px; 
+    } 
+} 
+ 
+ 
+@media (max-width: 768px) { 
+    .section { 
+        width: 100%; 
+    } 
+     
+    .section-profile .profile-information{ 
+        margin-left: 10px; 
+        width: 100%; 
+    } 
+     
+    h1 { 
+        font-size: 30px; 
+    } 
+     
+    h2 { 
+        font-size: 20px; 
+    } 
+}
+
