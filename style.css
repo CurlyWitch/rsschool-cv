@@ -35,7 +35,7 @@ h2 {
 }
 
 .header {
-    background-color: #6A8866;
+    background: linear-gradient(21deg, #dd03e4, #5611ec);
     border-bottom: 1px solid white;
 }
 .container {
@@ -51,13 +51,15 @@ h2 {
     margin: 0;
 }
 
-.nav-link {
-    padding: 0 20px;
-    line-height: 50px;
-    color: white;
-    font-size: 16px;
-    text-decoration: none;
-    transition: .3s;
+.nav-link { 
+    padding: 0 20px; 
+    line-height: 70px; 
+    color: white; 
+    font-size: 20px; 
+    text-decoration: none; 
+    transition: .3s; 
+    font-weight: 500; 
+    color: yellow; 
 }
 
 .nav-link:hover {
@@ -71,16 +73,20 @@ h2 {
 
 .main {
     padding-top: 8px;
-    background-color: rgb(230, 227, 227);
+    padding-bottom: 30px;
+    background: linear-gradient(135deg, rgba(229, 93, 135, 0.12) 0%, rgba(95, 195, 228, 0.105) 100%);
 }
+
 .main-container {
     display: flex;
     flex-wrap: wrap;
 }
 
-.section {
-    width: 50%;
-    border-bottom: 1px solid black;
+.section { 
+    width: 50%; 
+    border-bottom: 15px solid transparent; 
+    border-image: linear-gradient(21deg, #dd03e4, #5611ec); 
+    border-image-slice: 1; 
 }
 
 .section-profile {
@@ -89,6 +95,7 @@ h2 {
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    padding: 30px 0px;
 }
 
 .section-profile .profile-information {
@@ -99,7 +106,7 @@ h2 {
 .profile-photo .avatar {
     width: 250px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 20%;
 
 }
 
