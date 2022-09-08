@@ -38,7 +38,8 @@ Belarusian State University of Culture and Arts, Faculty of Musical Arts, Сompu
 
 ### Courses:
 
-RS Schools Course «JavaScript/Front-end. Stage 0» (currently)
+* RS Schools Course «JavaScript/Front-end. Stage 0» 
+* RS Schools Course «JavaScript/Front-end. Stage 1» (currently)
 
 ### Languages:
 
