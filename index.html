@@ -4,8 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV Yuliya Skryhan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#aboutMe" class="nav-link">About me</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>   
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section id="profile" class="section section-profile">
+                <div class="profile-photo">
+                    <img class="avatar" src="assets/img/avatar.jpg" alt="avatar">
+                </div>
+                <div class="profile-information">
+                    <h1 class="section-title">Yuliya Skryhan</h1>
+                    <p class="h2 section-title">Junior Frontend Developer</p>
+                </div>
+            </section>
+            <section id="contacts" class="section">
+                <h2 class="h3 section-title">Contacts</h2>
+                <ul class="section-list">
+                    <li><b>Phone: </b><a class="colored-link" href="tel:+375333573377">+375 33 357-33-77</a></li>
+                    <li><b>Email: </b><a class="colored-link" href="mailto:yuliya.skrygan@gmail.com">yuliya.skrygan@gmail.com</a></li>
+                    <li><b>GitHub:</b> CurlyWitch</li>
+                    <li><b>Discord:</b> Yuliya Skryhan (@curlywitch)</li>
+                </ul>
+            </section>
+            <section id="aboutMe" class="section">
+                <h2 class="h3 section-title">About Me</h2>
+                <p>I work as a seo-specialist, but have a desire to change the line and become a highly professional frontend developer.</p>
+                <p><strong>My strengths:</strong></p>
+                <ul>
+                    <li>Responsibility</li>
+                    <li>Attentiveness</li>
+                    <li>Creative approach to work</li>
+                </ul>
+            </section>
+            <section id="skills" class="section">
+                <h2 class="h3 section-title">Skills</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Git, GitHub</li>
+                    <li>JavaScript Basic</li>
+                </ul>
+            </section>
+            <section id="code" class="section"> 
+                <h2 class="h3 section-title">Code</h2> 
+                <div class="highlight"> 
+                    <pre> 
+                        <code> 
+function multiply(a, b){ 
+    return  a * b; 
+} 
+                        </code> 
+                    </pre> 
+                </div> 
+            </section>
+            <section id="courses" class="section">
+                <h2 class="h3 section-title">Courses</h2>
+                <p>RS Schools Course «JavaScript/Front-end. Stage 0» (currently)</p>
+            </section>
+            <section id="projects" class="section">
+                <h2 class="h3 section-title">Projects</h2>
+                <ul> 
+                    <li><a class="colored-link" href="https://curlywitch.github.io/rsschool-cv/">CV</a></li> 
+                </ul>
+            </section>
+            <section id="education" class="section">
+                <h2 class="h3 section-title">Education</h2>
+                <p>Belarusian State University of Culture and Arts.<br/>Faculty of Musical Arts, Сomputer arrangement.</p>
+            </section>
+            <section id="languages" class="section">
+                <h2 class="h3 section-title">Languages</h2>
+                <ul>
+                    <li>English - basic</li>
+                    <li>Russian - native</li>
+                    <li>German - basic</li>
+                  </ul>
+            </section>  
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="copyright"> 
+                &copy; 2022  <a class="colored-link" href="https://github.com/CurlyWitch">curlywitch</a> 
+            </div> 
+            <div class="footer-logo"> 
+                <a href="https://rs.school/js/"><img class="rs-logo" src="assets/img/rs_school_js.svg" alt="Курс JavaScript/Front-end"></a>  
+            </div>   
+        </div>
+    </footer>
 </body>
 </html>
